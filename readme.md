@@ -4,6 +4,11 @@ Es una base de datos NoSQL(Not only SQL) orientada a documentos.
 
 Este tipo de base de datos surge por la gran demanda de bases de datos que puedan trabajar con datos masivos de forma mas eficiente no usan tablas y registros como las bases de datos SQL , con lo que no necesitan una estructura fija y dan mas flexibilidad.
 
+
+## ¿Como funciona?
+
+![Diagrama sin título drawio (1)](https://user-images.githubusercontent.com/24995646/216204910-f85b2551-621f-49b4-a9f9-84b7727c269a.png)
+
 Este modelo de BBDD se compone de la siguiente estructura
 
 Coleccion1:
@@ -21,22 +26,18 @@ Coleccion3:
  Documento2:...
 
 
+## Ejemplo
 
-El ejemplo claro tenemos una tabla de usuarios en MySQl con el campo id nombre y apellido en el que como minimo si no definimos un  campo este debe estar en null.
-
-Y luego tenemos una colleccio
-
+![Diagrama sin título drawio (3)](https://user-images.githubusercontent.com/24995646/216205603-fd822c14-b22a-4e74-a3b4-530d49df5f66.png)
 
 
+## Ventajas
 
-
-
-
-
-
-
-
-
+- Mas rapido ya que se almacena todo en un mismo lugar (coleccion).
+- No hace falta unir tablas como en SQL.
+- Mas flexibilidad para las aplicaciones.
+- Es una herramienta de coste bajo
+- Escalabilidad( En el sentido de que si estás esperando un gran flujo de usuarios es ideal que la base de datos que elijas pueda escalar con la demanda)
 
 
 
