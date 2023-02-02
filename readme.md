@@ -1,3 +1,47 @@
+# ¿Que es mongodb?
+
+Es una base de datos NoSQL(Not only SQL) orientada a documentos. 
+
+Este tipo de base de datos surge por la gran demanda de bases de datos que puedan trabajar con datos masivos de forma mas eficiente no usan tablas y registros como las bases de datos SQL , con lo que no necesitan una estructura fija y dan mas flexibilidad.
+
+Este modelo de BBDD se compone de la siguiente estructura
+
+Coleccion1:
+ Documento1:...
+ Documento2:...
+ Documento3:
+  campo1:....
+  campo2:...
+Coleccion2:
+ Documento1:...
+  campo1:....
+  campo2:...
+Coleccion3:
+ Documento1:...
+ Documento2:...
+
+
+
+El ejemplo claro tenemos una tabla de usuarios en MySQl con el campo id nombre y apellido en el que como minimo si no definimos un  campo este debe estar en null.
+
+Y luego tenemos una colleccio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # ¿Que es JWT?
 
