@@ -74,7 +74,7 @@ Cuerpo(Payload)
 Firma(Signature)
 
 
-Insertar imagen de como se veria un JWT
+![image](https://user-images.githubusercontent.com/24995646/216201455-3bfea048-256b-46a2-b651-870cbb9f9666.png)
 
 
 ### Cabecera
@@ -82,7 +82,7 @@ Esta a su vez se compone de:
 Tipo de token
 Algoritmo HASH que se esta usando
 
-Insertar imagen de cabecera
+![image](https://user-images.githubusercontent.com/24995646/216200790-a8a213d7-18a8-48a5-957c-db8bd8b2b7fb.png)
 
 ### Cuerpo 
 
@@ -102,6 +102,9 @@ Publico: Este conjunto de informacion la definimos nostros como  personas que us
 
 Privado: Aquella informacion que no se encuentra en los conjuntos anteriores. Ej: Puede ser que una libreria genere informacion dentro del token.
 
+![image](https://user-images.githubusercontent.com/24995646/216201507-d53ed06c-00f8-4291-a4b1-71f27156bec1.png)
+
+
 
 ### Firma
 
@@ -119,7 +122,7 @@ teniendo en cuenta que la firma era algo asin :
 
 Al final como resultado:
 
-insertar foto aqui de JWT
+![image](https://user-images.githubusercontent.com/24995646/216201571-88e83d9a-a8cb-493b-b77d-d1384dc4cc42.png)
 
 
 ## Funcionamiento
@@ -137,6 +140,10 @@ Este token se envia atraves de la cabecera HTTP Authorization usando el esquema 
     Authorization:Bearer token
 
 Este es un mecanismo de autenticacion sin  estado (stateless) ya que el estado del usuario nunca es almacenado en la memoria del servidor.
+
+Resumiendo:
+
+![Diagrama sin título](https://user-images.githubusercontent.com/24995646/216200565-1bf294d6-c326-42b0-b0ff-3a1e3b825c9e.jpg)
 
 
 
